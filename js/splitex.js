@@ -60,7 +60,7 @@ $(function() {
         align: 'center',
         valign: 'right',
         slides: [{
-            src: "img/background/home-bg-left.jpg"
+            src: "img/background/home-bg-left.png"
         }]
     });
     // about IMG left
@@ -69,7 +69,7 @@ $(function() {
         align: 'center',
         valign: 'right',
         slides: [{
-            src: "img/background/about-bg-left.jpg"
+            src: "img/background/about-bg-left.png"
         }]
     });
     // works IMG left
@@ -78,7 +78,7 @@ $(function() {
         align: 'center',
         valign: 'right',
         slides: [{
-            src: "img/background/works-bg-left.jpg"
+            src: "img/background/works-bg-left.png"
         }]
     });
     // contact IMG left
@@ -87,7 +87,7 @@ $(function() {
         align: 'center',
         valign: 'right',
         slides: [{
-            src: "img/background/contact-bg-left.jpg"
+            src: "img/background/contact-bg-left.png"
         }]
     });
     // home IMG right
@@ -96,7 +96,7 @@ $(function() {
         align: 'center',
         valign: 'left',
         slides: [{
-            src: "img/background/home-bg-right.jpg"
+            src: "img/background/home-bg-right.png"
         }]
     });
     // about IMG right
@@ -105,7 +105,7 @@ $(function() {
         align: 'center',
         valign: 'left',
         slides: [{
-            src: "img/background/about-bg-right.jpg"
+            src: "img/background/about-bg-right.png"
         }]
     });
     // works IMG right
@@ -114,7 +114,7 @@ $(function() {
         align: 'center',
         valign: 'left',
         slides: [{
-            src: "img/background/works-bg-right.jpg"
+            src: "img/background/works-bg-right.png"
         }]
     });
     // contact IMG right
@@ -123,7 +123,7 @@ $(function() {
         align: 'center',
         valign: 'left',
         slides: [{
-            src: "img/background/contact-bg-right.jpg"
+            src: "img/background/contact-bg-right.png"
         }]
     });
     // slider IMG left
@@ -135,13 +135,13 @@ $(function() {
         valign: 'right',
         transition: 'slideUp',
         slides: [{
-            src: "img/background/slide-left-1.jpg"
+            src: "img/background/slide-left-1.png"
         }, {
-            src: "img/background/slide-left-2.jpg"
+            src: "img/background/slide-left-2.png"
         }, {
-            src: "img/background/slide-left-3.jpg"
+            src: "img/background/slide-left-3.png"
         }, {
-            src: "img/background/slide-left-4.jpg"
+            src: "img/background/slide-left-4.png"
         }]
     });
     // slider IMG right
@@ -153,13 +153,13 @@ $(function() {
         valign: 'left',
         transition: 'slideDown',
         slides: [{
-            src: "img/background/slide-right-1.jpg"
+            src: "img/background/slide-right-1.png"
         }, {
-            src: "img/background/slide-right-2.jpg"
+            src: "img/background/slide-right-2.png"
         }, {
-            src: "img/background/slide-right-3.jpg"
+            src: "img/background/slide-right-3.png"
         }, {
-            src: "img/background/slide-right-4.jpg"
+            src: "img/background/slide-right-4.png"
         }]
     });
 	

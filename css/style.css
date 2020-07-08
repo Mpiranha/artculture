@@ -36,6 +36,11 @@
   22. divider
 */
 
+@font-face {
+  font-family: Oswald;
+  src: url(../fonts/static/Oswald-Regular.ttf);
+}
+
 
 /* 1. TEMPLATE BACKGROUNDS */
 /* 1.1. works IMG gallery carousel IMG BACKGROUND */
@@ -54,6 +59,7 @@ background-image: url(../img/works/works-page-img-carousel-item-3.jpg);
 .works-page-carousel-item-4 {
 background-image: url(../img/works/works-page-img-carousel-item-4.jpg);
 }
+
 
 
 /* 2. reset */
@@ -511,7 +517,7 @@ h1.section-header {
 font-family: 'Oswald', sans-serif;
 font-style: normal;
 font-weight: 700;
-font-size: 18px;
+font-size: 25px;
 text-align: center;
 text-transform: none;
 letter-spacing: -0.02em;
@@ -1733,7 +1739,7 @@ z-index: -1;
 position: relative;
 width: 100%;
 left: 0;
-padding: 0 15%;
+padding: 0 10%;
         opacity: 1;
    -moz-opacity: 1;
 -webkit-opacity: 1;
