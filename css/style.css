@@ -520,7 +520,7 @@ font-weight: 700;
 font-size: 25px;
 text-align: center;
 text-transform: none;
-letter-spacing: -0.02em;
+letter-spacing: 0.08em;
 color: #fff;
 margin: -2px auto 0 auto;
 width: 100%;
@@ -616,7 +616,7 @@ font-size: 16px;
 font-weight: 700;
 text-align: center;
 text-transform: uppercase;
-letter-spacing: -0.02em;
+letter-spacing: 0.08em;
 color: #fff;
 margin: 0 auto;
 line-height: 1;
@@ -628,6 +628,7 @@ line-height: 1;
 position: relative;
 margin: 0 auto;
 z-index: 5;
+font-family: 'Oswald', sans-serif;
 }
 
 
