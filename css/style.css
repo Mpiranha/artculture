@@ -520,7 +520,7 @@ font-weight: 700;
 font-size: 25px;
 text-align: center;
 text-transform: none;
-letter-spacing: 0.08em;
+letter-spacing: -0.02em;
 color: #fff;
 margin: -2px auto 0 auto;
 width: 100%;
@@ -550,8 +550,8 @@ text-shadow: none;
 
 @supports((text-stroke: 1px #fff) or (-webkit-text-stroke: 1px #fff)) {
   h1.section-header {
-    /* color: transparent; */
-    color: #fff;
+    color: transparent;
+    /* color: #fff; */
     -webkit-text-stroke: 1px #fff;
             text-stroke: 1px #fff;
     text-shadow: none;
@@ -559,15 +559,16 @@ text-shadow: none;
 }
 
 h1.section-header span {
-color: #FF9933;
+/* color: #FF9933; */
+color: transparent;
 -webkit-text-stroke: 1px #FF9933;
         text-stroke: 1px #FF9933;
 }
 
 @supports((text-stroke: 1px #FF9933) or (-webkit-text-stroke: 1px #FF9933)) {
   h1.section-header span {
-    /* color: transparent; */
-    color: #FF9933;
+    color: transparent;
+    /* color: #FF9933; */
     -webkit-text-stroke: 1px #FF9933;
             text-stroke: 1px #FF9933;
     text-shadow: none;
@@ -616,7 +617,7 @@ font-size: 16px;
 font-weight: 700;
 text-align: center;
 text-transform: uppercase;
-letter-spacing: 0.08em;
+letter-spacing: -0.02em;
 color: #fff;
 margin: 0 auto;
 line-height: 1;
