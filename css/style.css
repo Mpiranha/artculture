@@ -331,11 +331,11 @@ line-height: 100%;
   }
 }
 
-@supports((text-stroke: 1px #ff264a) or (-webkit-text-stroke: 1px #ff264a)) {
+@supports((text-stroke: 1px #FF9933) or (-webkit-text-stroke: 1px #FF9933)) {
   .hero-heading span {
     color: transparent;
-    -webkit-text-stroke: 1px #ff264a;
-            text-stroke: 1px #ff264a;
+    -webkit-text-stroke: 1px #FF9933;
+            text-stroke: 1px #FF9933;
     text-shadow: none;
   }
 }
@@ -393,11 +393,11 @@ font-size: 40px;
   }
 }
 
-@supports((text-stroke: 1px #ff264a) or (-webkit-text-stroke: 1px #ff264a)) {
+@supports((text-stroke: 1px #FF9933) or (-webkit-text-stroke: 1px #FF9933)) {
   .timeRefDays {
     color: transparent;
-    -webkit-text-stroke: 1px #ff264a;
-            text-stroke: 1px #ff264a;
+    -webkit-text-stroke: 1px #FF9933;
+            text-stroke: 1px #FF9933;
     text-shadow: none;
   }
 }
@@ -511,7 +511,7 @@ h1.section-header {
 font-family: 'Oswald', sans-serif;
 font-style: normal;
 font-weight: 700;
-font-size: 40px;
+font-size: 18px;
 text-align: center;
 text-transform: none;
 letter-spacing: -0.02em;
@@ -544,7 +544,8 @@ text-shadow: none;
 
 @supports((text-stroke: 1px #fff) or (-webkit-text-stroke: 1px #fff)) {
   h1.section-header {
-    color: transparent;
+    /* color: transparent; */
+    color: #fff;
     -webkit-text-stroke: 1px #fff;
             text-stroke: 1px #fff;
     text-shadow: none;
@@ -552,16 +553,17 @@ text-shadow: none;
 }
 
 h1.section-header span {
-color: #ff264a;
--webkit-text-stroke: 1px #ff264a;
-        text-stroke: 1px #ff264a;
+color: #FF9933;
+-webkit-text-stroke: 1px #FF9933;
+        text-stroke: 1px #FF9933;
 }
 
-@supports((text-stroke: 1px #ff264a) or (-webkit-text-stroke: 1px #ff264a)) {
+@supports((text-stroke: 1px #FF9933) or (-webkit-text-stroke: 1px #FF9933)) {
   h1.section-header span {
-    color: transparent;
-    -webkit-text-stroke: 1px #ff264a;
-            text-stroke: 1px #ff264a;
+    /* color: transparent; */
+    color: #FF9933
+    -webkit-text-stroke: 1px #FF9933;
+            text-stroke: 1px #FF9933;
     text-shadow: none;
   }
 }
@@ -595,7 +597,7 @@ z-index: 10;
 }
 
 h4.post-all-heading span {
-color: #ff264a;
+color: #FF9933;
 }
 
 .about-section h3,
@@ -1522,7 +1524,7 @@ right: 0;
         transition-duration: 0.3s;
 -webkit-transition-timing-function: ease-out;
         transition-timing-function: ease-out;
-background: #ff264a;
+background: #FF9933;
 z-index: -1;
 }
 
@@ -1581,7 +1583,7 @@ outline: none;
 .main-menu ul,
 .main-menu li a.active {
 color: #fff;
-background: #ff264a;
+background: #FF9933;
 }
 
 .main-menu ul,
@@ -1834,7 +1836,7 @@ z-index: 1;
 
 #multiscroll-nav li .active span {
 width: 24px;
-background: #ff264a;
+background: #FF9933;
 -webkit-transition: all 0.7s ease-out;
    -moz-transition: all 0.7s ease-out;
     -ms-transition: all 0.7s ease-out;
