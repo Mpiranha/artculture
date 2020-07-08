@@ -552,8 +552,8 @@ text-shadow: none;
   h1.section-header {
     color: transparent;
     /* color: #fff; */
-    -webkit-text-stroke: 1px #fff;
-            text-stroke: 1px #fff;
+    -webkit-text-stroke: 0.7px #fff;
+            text-stroke: 0.7px #fff;
     text-shadow: none;
   }
 }
@@ -561,16 +561,16 @@ text-shadow: none;
 h1.section-header span {
 /* color: #FF9933; */
 color: transparent;
--webkit-text-stroke: 1px #FF9933;
-        text-stroke: 1px #FF9933;
+-webkit-text-stroke: 0.7px #FF9933;
+        text-stroke: 0.7px #FF9933;
 }
 
 @supports((text-stroke: 1px #FF9933) or (-webkit-text-stroke: 1px #FF9933)) {
   h1.section-header span {
     color: transparent;
     /* color: #FF9933; */
-    -webkit-text-stroke: 1px #FF9933;
-            text-stroke: 1px #FF9933;
+    -webkit-text-stroke: 0.7px #FF9933;
+            text-stroke: 0.7px #FF9933;
     text-shadow: none;
   }
 }
@@ -630,6 +630,11 @@ position: relative;
 margin: 0 auto;
 z-index: 5;
 font-family: 'Oswald', sans-serif;
+}
+
+.legible {
+  font-size: 22px !important;
+  letter-spacing: 0.08em !important;
 }
 
 
@@ -695,8 +700,8 @@ z-index: 10;
 @supports((text-stroke: 1px #fff) or (-webkit-text-stroke: 1px #fff)) {
   .description h3 {
     color: transparent;
-    -webkit-text-stroke: 1px #fff;
-            text-stroke: 1px #fff;
+    -webkit-text-stroke: 0.7px #fff;
+            text-stroke: 0.7px #fff;
     text-shadow: none;
   }
 }
